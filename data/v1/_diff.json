@@ -1,0 +1,6 @@
+{
+	{{#fake_diff_result}}
+		"{{_id}}": "{{_rev}}",
+	{{/fake_diff_result}}
+	"end-doc": "modified"
+}

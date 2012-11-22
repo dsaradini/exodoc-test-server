@@ -1,0 +1,6 @@
+{
+	{{#fake_my_docs}}
+		"{{_id}}": "{{_rev}}",
+	{{/fake_my_docs}}
+	"end-doc": "end-rev"
+}

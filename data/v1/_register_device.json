@@ -1,0 +1,12 @@
+{
+	"_id": "{{request._id}}",
+	"name": "{{request.name}}",
+	"type": "{{request.type}}",
+	"created_at": "{{now}}",
+	"mode": "verified",
+	"user": {
+		"fullname": "Fake User",
+		"name": "fake@user.com",
+		"email": "fake@user.com"
+	}
+}

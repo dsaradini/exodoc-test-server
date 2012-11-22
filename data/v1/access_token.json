@@ -1,0 +1,14 @@
+{
+	"access_token": "fake-access-token",
+	"token_type": "bearer",
+	"expires_in": 10000,
+	"refresh_token": null,
+	"client_id": "fake-client-id",
+	"client_name": "fake-client-name",
+	"username": "fake@user.com",
+	"roles": ["app.exodoc.user"],
+	"fullname": "Fake User",
+	"name": "fake@user.com",
+	"email": "fake@user.com",
+	"scope": null
+}
