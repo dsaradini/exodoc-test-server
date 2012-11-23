@@ -1,0 +1,4 @@
+{
+	"_id": "{{params.DOC_ID}}",
+	"doc_type": "event"
+}

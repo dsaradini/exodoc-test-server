@@ -30,6 +30,7 @@ var send_json_file = function( res, file, options ) {
 
 var get_options = function(req) {
 	return {
+		params: req.params,
 		request: req.body,
 		fake_my_docs: function() {
 			var diff = [];
@@ -82,6 +83,11 @@ app.post('/api/oauth2/access_token', function(req, res){
 
 app.post('/api/_register_device', function(req, res){
 	var file = path.join("./","data",data_option,"_register_device.json");
+	send_json_file(res, file, get_options(req));
+});
+
+app.get('/api/documents/:DOC_ID', function(req, res){
+	var file = path.join("./","data",data_option,"document.json");
 	send_json_file(res, file, get_options(req));
 });
 
